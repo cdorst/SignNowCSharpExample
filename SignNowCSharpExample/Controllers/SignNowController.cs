@@ -13,8 +13,8 @@ namespace SignNowCSharpExample.Controllers
 {
     public class SignNowController : ApiController
     {
-        const string ClientId = "0fccdbc73581ca0f9bf8c379e6a96813";
-        const string ClientSecret = "3719a124bcfc03c534d4f5c05b5a196b";
+        const string ClientId = "__CLIENT_ID__";
+        const string ClientSecret = "__CLIENT_SECRET___";
         
         private SignNowApi SignNowApi;
 
